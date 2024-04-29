@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(34, 96, 203);
+    font-family: Sans-serif ;
+
+}
+
+.header{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 5vh;
+    background-image: linear-gradient(to top right,rgb(0, 174, 255), rgb(119, 0, 255), rgb(0, 255, 208));
+    background-clip: text;
+    color: transparent;
+}
+
+.home {
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    width: 50%;
+    position: absolute;
+    transform: translate(50%,30%);
+    padding-bottom: 5rem;
+
+}
+
+
+.create_form input {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid rgb(101, 137, 207);
+    border-radius: 2px;
+    outline: none;
+}
+
+.create_form button {
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(44, 107, 236);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.create_form button:hover {
+    border: 1px solid blue;
+}
+
+.create_form{
+    margin-bottom: 2rem;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    width: 375px;
+    justify-content: space-between;
+    background-color: rgb(197, 224, 229);
+    color: rgb(0, 0, 0);
+    height: 35px;
+    padding: 2px 5px;
+    margin: 2px;
+    border-radius: 2px;
+}
+
+
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox .icon {
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.task div span {
+    margin: 0px 5px 0px 4px;
+}
+
+.task div .icon {
+    cursor: pointer;
+}
+
+.line_through {
+    text-decoration: line-through;
+}
+
+
+.icon-2{
+    background-color: rgb(44, 107, 236);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.icon{
+    color: white;
+}
+.icon:hover{
+    border: 1px solid rgb(44, 107, 236);
+}
